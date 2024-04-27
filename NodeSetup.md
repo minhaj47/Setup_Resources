@@ -2,32 +2,13 @@
 
   <h3 align="center">Node Setup</h3>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Update Node](#update-node)
-  - [Windows](#windows)
-  - [Mac](#mac)
-- [Install and Update Yarn](#install-and-update-yarn)
-  - [Windows](#on-windows)
-  - [Mac](#on-mac)
-- [VS Code Editor Setup](#vs-code-editor-setup)
-  - [Extensions](#extensions)
-  - [Settings](#settings)
-  - [Set Line Breaks](#set-line-breaks)
-- [Linting Setup](#linting-setup)
-  - [Install Dev Dependencies](#install-dev-dependencies)
-  - [Setup Linting Configuration file](#setup-linting-configuration-file)
-- [Contact](#contact)
-
 <!-- UPDATE NODE -->
 
 ## Update Node
 
 Please follow the below instructions to update node in your machine:
 
-### Windows
+### Windows or linux
 
 1. Update npm
    ```sh
@@ -46,7 +27,7 @@ Please follow the below instructions to update node in your machine:
    n latest
    ```
 
-### Mac
+### For Mac
 
 1. With Homebrew
    ```sh
@@ -60,7 +41,7 @@ Please follow the below instructions to update node in your machine:
 
 Please follow the below instructions to install or update yarn in your machine.
 
-### On Windows
+### On Windows or linux
 
 1. Install yarn
    ```sh
