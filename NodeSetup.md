@@ -120,8 +120,6 @@ Go to your Visual Stuido Code `settings.json` file and add the below settings th
 
 Make sure in your VS Code Editor, "LF" is selected as line feed instead of CRLF (Carriage return and line feed). To do that, just click LF/CRLF in bottom right corner of editor, click it and change it to "LF". If you dont do that, you will get errors in my setup.
 
-<img src="images/line-feed.jpg" alt="Line Feed" width="700">
-
 <!-- LINTING SETUP -->
 
 ## Linting Setup
@@ -131,9 +129,9 @@ In order to lint and format your code automatically according to popular airbnb 
 ### Install Dev Dependencies
 
 ```sh
-yarn add -D eslint prettier
-npx install-peerdeps --dev eslint-config-airbnb-base
-yarn add -D eslint-config-prettier eslint-plugin-prettier
+sudo yarn add -D eslint prettier
+sudo npx install-peerdeps --dev eslint-config-airbnb-base
+sudo yarn add -D eslint-config-prettier eslint-plugin-prettier
 ```
 
 ### Setup Linting Configuration file
