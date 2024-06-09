@@ -86,15 +86,21 @@ Go to your Visual Stuido Code `settings.json` file and add the below settings th
 // config related to code formatting
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.formatOnSave": true,
-"[javascript]": {
-  "editor.formatOnSave": false,
-  "editor.defaultFormatter": null
-},
-"editor.codeActionsOnSave": {
-  "source.fixAll.eslint": true,
-  "source.organizeImports": true
-},
-"eslint.alwaysShowStatus": true
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "eslint.format.enable": true,
 ```
 
 ### Set Line Breaks
