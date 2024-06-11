@@ -121,6 +121,18 @@ sudo npx install-peerdeps --dev eslint-config-airbnb-base
 sudo yarn add -D eslint-config-prettier eslint-plugin-prettier
 ```
 
+### Dev dependency
+```sh
+"devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.1"
+  }
+```
+
 ### Setup Linting Configuration file
 
 Create a `.eslintrc.json` file in the project root and enter the below contents:
