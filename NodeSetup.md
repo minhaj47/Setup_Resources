@@ -2,6 +2,28 @@
 
   <h3 align="center">Node Setup</h3>
 
+## Install Node 
+
+installs nvm (Node Version Manager)
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   ```
+download and install Node.js (you may need to restart the terminal)
+```sh
+nvm install 20
+   ```
+
+verifies the right Node.js version is in the environment
+```sh
+node -v # should print `v20.16.0`
+   ```
+verifies the right npm version is in the environment
+```sh
+npm -v # should print `10.8.1`
+
+   ```
+check for the latest version number and use them here. 
+
 <!-- UPDATE NODE -->
 
 ## Update Node
